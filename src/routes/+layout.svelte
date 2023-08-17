@@ -1,5 +1,4 @@
 <script>
-	export const prerender = true;
 </script>
 
 <header>f</header>
