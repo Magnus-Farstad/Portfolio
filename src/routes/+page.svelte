@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Particles from '$lib/particles.svelte';
 </script>
 

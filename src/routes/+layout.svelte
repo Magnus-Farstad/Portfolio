@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Profile from '$lib/assets/profile-img.jpg';
 	import '../styles/global.css';
 </script>
