@@ -27,12 +27,12 @@
 		{#if isLive}
 			<button
 				><span>See the Live Site</span>
-				<img src={Arrowright} alt="Arrow pointing to the right" /></button
+				<img src={Arrowdiagonal} alt="Arrow pointing to the right" /></button
 			>
 		{:else}
 			<button>
 				<span>See the Project</span>
-				<img src={Arrowdiagonal} alt="Arrow pointing diagonal upwards to the right" />
+				<img src={Arrowright} alt="Arrow pointing diagonal upwards to the right" />
 			</button>
 		{/if}
 	</div>

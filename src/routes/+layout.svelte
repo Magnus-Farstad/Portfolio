@@ -29,7 +29,7 @@
 		<a href="https://www.linkedin.com/in/magnusrosvoldfarstad/" target="#"
 			><img class="link" src={LinkedIn} alt="LinkedIn link" /></a
 		>
-		<a href="/"><img class="link" src={Mail} alt="Mail link" /></a>
+		<a href="mailto: magnus.r.farstad@gmail.com"><img class="link" src={Mail} alt="Mail link" /></a>
 	</div>
 	<p class="byline">Made by Magnus Rosvold Farstad</p>
 </footer>
