@@ -53,6 +53,14 @@
 		height: calc(440px - 77px);
 		overflow: hidden;
 		gap: 130px;
+		transition: all 0.2s ease-out;
+
+		&:hover {
+			background-color: #f6f6f6;
+			transform: scale(1.02);
+			box-shadow: 0 0 #e6ebef, 0 4px 24px rgba(0, 0, 0, 0.08);
+			cursor: pointer;
+		}
 	}
 	.info {
 		text-align: left;
@@ -106,10 +114,27 @@
 		gap: 7px;
 		margin-top: 24px;
 		padding: 15px 24px;
-		border: none;
+		border: 2px solid #fff;
 		border-radius: 12px;
 		background-color: white;
 		text-decoration: none;
+		transition: all 0.2s ease;
+
+		&:hover {
+			box-shadow: none;
+			color: #5e5e63;
+			-webkit-text-fill-color: #5e5e63;
+			border-radius: 12px;
+			cursor: pointer;
+			background-color: transparent;
+		}
+
+		&:hover > img {
+			transform: translate3d(6px, 0, 0);
+		}
+	}
+	button > img {
+		transition: all 0.2s ease;
 	}
 	span {
 		font-size: 18px;

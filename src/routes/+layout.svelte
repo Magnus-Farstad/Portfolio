@@ -79,9 +79,14 @@
 		border: none;
 		font-size: inherit;
 		padding: 0;
+		transition: 0.15s ease-in-out;
 
 		&:hover {
 			cursor: pointer;
+			color: #1f1f21;
+		}
+		&:active {
+			transform: scale(0.95);
 		}
 	}
 

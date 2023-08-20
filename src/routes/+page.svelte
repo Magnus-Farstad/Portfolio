@@ -63,7 +63,7 @@
 
 		&:hover {
 			-webkit-text-fill-color: rgba(14, 14, 15, 0.56);
-			border-radius: 4px;
+			border-radius: 6px;
 			box-shadow: 0 0 0 2px rgba(189, 189, 197, 0.3), inset 0 -90px rgba(189, 189, 197, 0.3);
 			cursor: pointer;
 		}
@@ -74,7 +74,7 @@
 		font-weight: 700;
 		background: linear-gradient(27deg, #969699, #1e1e22);
 		background-clip: text;
-		/*color: transparent;*/
+		color: transparent;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		width: fit-content;
