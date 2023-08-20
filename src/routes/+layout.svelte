@@ -43,6 +43,7 @@
 		max-width: 900px;
 		margin-inline: auto;
 		margin-top: 30px;
+		animation: slideIn 1s cubic-bezier(1, 0.03, 0.64, -0.01);
 	}
 
 	.user {
@@ -114,5 +115,14 @@
 	.byline {
 		color: #707072;
 		font-size: 14px;
+	}
+
+	@keyframes slideIn {
+		from {
+			transform: translateY(-100px);
+		}
+		to {
+			transform: translateY(0);
+		}
 	}
 </style>

@@ -46,6 +46,7 @@
 	.container {
 		position: relative;
 		text-align: center;
+		animation: fadeIn 0.7s linear;
 	}
 	.hero-container {
 		margin-block: 170px;
@@ -101,5 +102,14 @@
 		display: flex;
 		flex-direction: column;
 		gap: 90px;
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
 	}
 </style>
