@@ -1,0 +1,28 @@
+{
+  "projects": [
+    { "logo": "./assets/Spotify_Logo_RGB_Green_1.png",
+      "img": "./assets/Stats-for-spotify.png",
+      "title": "Stats for Spotify",
+      "subtitle": "SIDE PROJECT",
+      "platform": "iOS/Android App",
+      "description": "Take control of your own Spotify statistics",
+      "isLive": false
+    },
+    { "logo": "./assets/Election-logo.png",
+      "img": "./assets/Election-preview.png",
+      "title": "Election 2023",
+      "subtitle": "INTERNSHIP 2023",
+      "platform": "Web Application",
+      "description": "All the info you need about the Norwegian election 2023",
+      "isLive": true
+    },
+    { "logo": "./assets/Properate-logo.png",
+      "img": "./assets/Properate-preview.png",
+      "title": "Properate",
+      "subtitle": "BACHELORS THESIS",
+      "platform": "iOS/Android App",
+      "description": "Fast and easy access to all data related to technical services",
+      "isLive": false
+    }
+  ]
+}

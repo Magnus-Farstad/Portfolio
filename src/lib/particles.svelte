@@ -130,7 +130,7 @@
 
 	@keyframes rotate {
 		to {
-			transform: scale3d(5, 5, 1);
+			transform: scale3d(4, 4, 1);
 		}
 	}
 </style>
