@@ -2,19 +2,7 @@
 	import Particles from '$lib/particles.svelte';
 	import ProjectCard from '$lib/project-card.svelte';
 	import projects from '$lib/assets/projects.json';
-	import ElectionLogo from '$lib/assets/Election-logo.png';
-	import ElectionPreview from '$lib/assets/Election-preview.png';
-	import ProperateLogo from '$lib/assets/Properate-logo.png';
-	import ProperatePreview from '$lib/assets/Properate-preview.png';
-	import SpotifyLogo from '$lib/assets/Spotify_Logo_RGB_Green_1.png';
-	import SpotifyPreview from '$lib/assets/Stats-for-spotify.png';
 	import Location from '$lib/assets/location.png';
-
-	const logoArray = [
-		{ logo: SpotifyLogo, preview: SpotifyPreview },
-		{ logo: ElectionLogo, preview: ElectionPreview },
-		{ logo: ProperateLogo, preview: ProperatePreview }
-	];
 </script>
 
 <div class="container">
@@ -28,15 +16,19 @@
 		<p>Computer scientist student and developer <br />who loves to create cool stuff!</p>
 	</div>
 	<div class="project-container">
-		{#each projects.projects as project, index}
+		{#each projects.projects as project}
 			<ProjectCard
-				logo={logoArray[index].logo}
-				image={logoArray[index].preview}
+				logo={project.logo}
+				img={project.img}
 				title={project.title}
 				subtitle={project.subtitle}
 				description={project.description}
 				platform={project.platform}
 				isLive={project.isLive}
+				id={project.id}
+				techStack={project.techStack}
+				text={project.text}
+				detailedImage={project.detailedImage}
 			/>
 		{/each}
 	</div>

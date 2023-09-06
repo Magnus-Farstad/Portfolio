@@ -1,26 +1,44 @@
 <script lang="ts">
+	import ProjectSubtitle from '$lib/project-subtitle.svelte';
 	import Arrowright from '$lib/assets/ArrowRightOutline.png';
 	import Arrowdiagonal from '$lib/assets/ArrowDiagonalOutline.png';
+	import { type Project, projectStore } from '$lib/store/project-store';
 	export let title: string;
 	export let subtitle: string;
 	export let description: string;
-	export let image = 'Missing';
+	export let img = 'Missing';
 	export let logo = 'missing';
 	export let platform: string;
 	export let isLive: boolean;
+	export let id: string;
+	export let techStack: string;
+	export let text: string;
+	export let detailedImage: string;
+
+	const handleSetStore = () => {
+		const project: Project = {
+			title: title,
+			subtitle: subtitle,
+			description: description,
+			img: img,
+			logo: logo,
+			platform: platform,
+			isLive: isLive,
+			id: id,
+			techStack: techStack,
+			text: text,
+			detailedImage: detailedImage
+		};
+		console.log(project);
+		projectStore.set(project);
+	};
 </script>
 
-<div class="container">
+<a class="container" href="/projects/{id.toLowerCase()}" on:click={() => handleSetStore()}>
 	<div class="info">
 		<img src={logo} alt="Project logo" class="logo" />
 		<h3>{title}</h3>
-		<div class="subtitle-container">
-			<p class="subtitle">
-				{subtitle}
-			</p>
-			<p class="small-caps">•</p>
-			<p class="subtitle">{platform}</p>
-		</div>
+		<ProjectSubtitle {subtitle} {platform} />
 		<p class="description">
 			{description}
 		</p>
@@ -37,13 +55,14 @@
 		{/if}
 	</div>
 	<div class="img-container">
-		<img src={image} alt="Project preview" class="image" />
+		<img src={img} alt="Project preview" class="image" />
 	</div>
-</div>
+</a>
 
 <style>
 	.container {
 		background-color: #eceff1;
+		text-decoration: none;
 		padding-top: 77px;
 		padding-left: 64px;
 		border-radius: 24px;
@@ -76,30 +95,9 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
-	.subtitle-container {
-		display: flex;
-		gap: 5px;
-		align-items: center;
-		margin-bottom: 24px;
-	}
+
 	p {
 		margin: 0;
-	}
-	.subtitle {
-		color: #5e5e63;
-		font-size: 14px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: normal;
-	}
-	.small-caps {
-		color: #5e5e63;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-		margin-bottom: 0;
-		font-size: 14px;
-		font-weight: 600;
-		line-height: 160%;
 	}
 	.description {
 		color: #5e5e63;

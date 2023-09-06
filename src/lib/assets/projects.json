@@ -1,28 +1,40 @@
 {
   "projects": [
-    { "logo": "./assets/Spotify_Logo_RGB_Green_1.png",
-      "img": "./assets/Stats-for-spotify.png",
+    { "logo": "/images/Spotify_Logo_RGB_Green_1.png",
+      "img": "/images/Stats-for-spotify.png",
       "title": "Stats for Spotify",
       "subtitle": "SIDE PROJECT",
       "platform": "iOS/Android App",
       "description": "Take control of your own Spotify statistics",
-      "isLive": false
+      "isLive": false,
+      "id": "25f211b0-45b9-11ee-ace3-325096b39f47",
+      "techStack": "React Native (Expo), Spotify API, TypeScript",
+      "text": "This was a side project I created during the final year of my bachelor degree. I wanted to track my own Spotify statistics, but quickly realised the most detailed data was paid content in otherwise free apps. Since I was (and still am) a student, I figured I could create this myself. <br/><br/>I had also been using React Native a lot for my final project of my degree. This meant I had an idea of how to create my own app. I therefore decided to get to work!",
+      "detailedImage": "/images/Stats-for-spotify-detailed.jpg"
     },
-    { "logo": "./assets/Election-logo.png",
-      "img": "./assets/Election-preview.png",
+    { "logo": "/images/Election-logo.png",
+      "img": "/images/Election-preview.png",
       "title": "Election 2023",
       "subtitle": "INTERNSHIP 2023",
       "platform": "Web Application",
       "description": "All the info you need about the Norwegian election 2023",
-      "isLive": true
+      "isLive": true,
+      "id": "25f214ee-45b9-11ee-8180-325096b39f47",
+      "techStack": "Svelte (NRK Template), Node.js, Polopoly, F#, TypeScript",
+      "text": "This was a side project I created during the final year of my bachelor degree. I wanted to track my own Spotify statistics, but quickly realised the most detailed data was paid content in otherwise free apps. Since I was (and still am) a student, I figured I could create this myself. <br/><br/>I had also been using React Native a lot for my final project of my degree. This meant I had an idea of how to create my own app. I therefore decided to get to work!",
+      "detailedImage": "/images/Stats-for-spotify-detailed.jpg"
     },
-    { "logo": "./assets/Properate-logo.png",
-      "img": "./assets/Properate-preview.png",
+    { "logo": "/images/Properate-logo.png",
+      "img": "/images/Properate-preview.png",
       "title": "Properate",
       "subtitle": "BACHELORS THESIS",
       "platform": "iOS/Android App",
       "description": "Fast and easy access to all data related to technical services",
-      "isLive": false
+      "isLive": false,
+      "id": "25f21598-45b9-11ee-ad5d-325096b39f47",
+      "techStack": "React Native (Expo), Cognite Data Fusion, Python, JavaScript, Crontab",
+      "text": "This was a side project I created during the final year of my bachelor degree. I wanted to track my own Spotify statistics, but quickly realised the most detailed data was paid content in otherwise free apps. Since I was (and still am) a student, I figured I could create this myself. <br/><br/>I had also been using React Native a lot for my final project of my degree. This meant I had an idea of how to create my own app. I therefore decided to get to work!",
+      "detailedImage": "/images/Stats-for-spotify-detailed.jpg"
     }
   ]
 }
