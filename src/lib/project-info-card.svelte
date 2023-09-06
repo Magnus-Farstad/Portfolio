@@ -25,7 +25,6 @@
 		border-radius: 50px;
 		padding: 30px 40px;
 		background-color: white;
-		width: 100%;
 	}
 
 	h1 {

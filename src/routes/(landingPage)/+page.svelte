@@ -29,6 +29,7 @@
 				techStack={project.techStack}
 				text={project.text}
 				detailedImage={project.detailedImage}
+				linkToSite={project.linkToSite}
 			/>
 		{/each}
 	</div>
@@ -50,16 +51,16 @@
 	}
 
 	span {
-		transition: border-radius 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
-			box-shadow 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
-		box-shadow: 0 4px #bdbdc5, inset 0 -1px #bdbdc5;
+		/*transition: border-radius 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),*/
+		/*	box-shadow 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);*/
+		/*box-shadow: 0 4px #bdbdc5, inset 0 -1px #bdbdc5;*/
 
-		&:hover {
-			-webkit-text-fill-color: rgba(14, 14, 15, 0.56);
-			border-radius: 6px;
-			box-shadow: 0 0 0 2px rgba(189, 189, 197, 0.3), inset 0 -90px rgba(189, 189, 197, 0.3);
-			cursor: pointer;
-		}
+		/*&:hover {*/
+		/*	-webkit-text-fill-color: rgba(14, 14, 15, 0.56);*/
+		/*	border-radius: 6px;*/
+		/*	box-shadow: 0 0 0 2px rgba(189, 189, 197, 0.3), inset 0 -90px rgba(189, 189, 197, 0.3);*/
+		/*	cursor: pointer;*/
+		/*}*/
 	}
 
 	h1 {

@@ -12,6 +12,7 @@ export type Project = {
 	techStack: string;
 	text: string;
 	detailedImage: string;
+	linkToSite: string;
 };
 
 export const projectStore = writable<Project>();

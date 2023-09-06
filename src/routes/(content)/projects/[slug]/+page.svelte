@@ -8,7 +8,7 @@
 </script>
 
 <div class="container">
-	<img src={project.detailedImage} alt="Detailed" />
+	<img src={project?.detailedImage} alt="Detailed" />
 	<ProjectInfoCard {project} />
 </div>
 
@@ -16,7 +16,15 @@
 	.container {
 		max-width: 1000px;
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
+		gap: 50px;
+		margin: 75px auto 0;
+	}
+
+	img {
+		object-fit: contain;
+		width: 900px;
 		margin: 0 auto;
 	}
 </style>

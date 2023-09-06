@@ -10,7 +10,8 @@
       "id": "25f211b0-45b9-11ee-ace3-325096b39f47",
       "techStack": "React Native (Expo), Spotify API, TypeScript",
       "text": "This was a side project I created during the final year of my bachelor degree. I wanted to track my own Spotify statistics, but quickly realised the most detailed data was paid content in otherwise free apps. Since I was (and still am) a student, I figured I could create this myself. <br/><br/>I had also been using React Native a lot for my final project of my degree. This meant I had an idea of how to create my own app. I therefore decided to get to work!",
-      "detailedImage": "/images/Stats-for-spotify-detailed.jpg"
+      "detailedImage": "/images/Spotify-detailed.png",
+      "linkToSite": ""
     },
     { "logo": "/images/Election-logo.png",
       "img": "/images/Election-preview.png",
@@ -21,20 +22,22 @@
       "isLive": true,
       "id": "25f214ee-45b9-11ee-8180-325096b39f47",
       "techStack": "Svelte (NRK Template), Node.js, Polopoly, F#, TypeScript",
-      "text": "This was a side project I created during the final year of my bachelor degree. I wanted to track my own Spotify statistics, but quickly realised the most detailed data was paid content in otherwise free apps. Since I was (and still am) a student, I figured I could create this myself. <br/><br/>I had also been using React Native a lot for my final project of my degree. This meant I had an idea of how to create my own app. I therefore decided to get to work!",
-      "detailedImage": "/images/Stats-for-spotify-detailed.jpg"
+      "text": "In the summer of 2023, I worked at NRK, where I, along with 4 other summer interns, was tasked with creating a website as part of their election campaign for the 2023 municipal and county elections. This website served as a central hub for all election-related content produced by NRK across their various platforms, including radio, television, and NRK.no. The project aimed to target second-time voters aged 20-25 with the goal of engaging this demographic and encouraging them to vote.",
+      "detailedImage": "/images/Election-detailed.png",
+      "linkToSite": "https://www.nrk.no/valg/2023/"
     },
     { "logo": "/images/Properate-logo.png",
       "img": "/images/Properate-preview.png",
       "title": "Properate",
-      "subtitle": "BACHELORS THESIS",
+      "subtitle": "BACHELOR THESIS",
       "platform": "iOS/Android App",
       "description": "Fast and easy access to all data related to technical services",
       "isLive": false,
       "id": "25f21598-45b9-11ee-ad5d-325096b39f47",
       "techStack": "React Native (Expo), Cognite Data Fusion, Python, JavaScript, Crontab",
-      "text": "This was a side project I created during the final year of my bachelor degree. I wanted to track my own Spotify statistics, but quickly realised the most detailed data was paid content in otherwise free apps. Since I was (and still am) a student, I figured I could create this myself. <br/><br/>I had also been using React Native a lot for my final project of my degree. This meant I had an idea of how to create my own app. I therefore decided to get to work!",
-      "detailedImage": "/images/Stats-for-spotify-detailed.jpg"
+      "text": "This project was a part of my final project from my bachelors degree in computer science & engineering. Our group was tasked with optimizing data flow by improving the extraction and provisioning of data, from an older customer management system, used to store data about energy consumption and documents of buildings. As a result, an app combining data from an older database with data from a newer system was born. This app could improve the internal workflow of the customer, by providing useful information, fetched from multiple places, that naturally belonged together.<br/><br/>This project will be further developed as a part time job, and has a goal of being published by the end of 2023.",
+      "detailedImage": "/images/Properate-detailed.png",
+      "linkToSite": ""
     }
   ]
 }
