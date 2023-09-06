@@ -11,7 +11,7 @@
 		<div class="nav-elements">
 			<a href="/" class="nav-element">Home</a>
 			<a href="/" class="nav-element">Projects</a>
-			<a href="/details" class="nav-element">About</a>
+			<a href="/" class="nav-element">About</a>
 		</div>
 	</nav>
 </header>
