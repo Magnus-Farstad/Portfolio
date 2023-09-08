@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Project } from '$lib/store/project-store';
 	import ProjectSubtitle from '$lib/project-subtitle.svelte';
+	import ProjectButton from '$lib/project-button.svelte';
 
 	export let project: Project;
 </script>
@@ -16,6 +17,9 @@
 	<p class="text">
 		{@html project.text}
 	</p>
+	{#if project.isLive}
+		<ProjectButton isLive={project.isLive} linkToSite={project.linkToSite} background={'#f1f1f1'} />
+	{/if}
 </div>
 
 <style>

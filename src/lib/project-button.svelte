@@ -3,10 +3,12 @@
 	import Arrowdiagonal from '$lib/assets/ArrowDiagonalOutline.png';
 	export let linkToSite: string;
 	export let isLive: boolean;
+	export let background: string | undefined = undefined;
+	console.log(background);
 </script>
 
 {#if isLive}
-	<a href={linkToSite} target="#" class="projectButton"
+	<a href={linkToSite} target="#" class="projectButton" style="background-color: {background};"
 		><span>See the Live Site</span>
 		<img src={Arrowdiagonal} alt="Arrow pointing to the right" /></a
 	>
