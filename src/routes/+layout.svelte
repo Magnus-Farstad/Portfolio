@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../styles/global.css';
+	import '../../styles/global.css';
 	import Github from '$lib/assets/Github.png';
 	import LinkedIn from '$lib/assets/LinkedIn.png';
 	import Mail from '$lib/assets/Mail.png';
