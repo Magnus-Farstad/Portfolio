@@ -1,0 +1,78 @@
+{
+  "employment": [
+    {
+      "extended": false,
+      "logo": "/images/NRK-logo.png",
+      "title": "Summer Internship - Developer",
+      "subtitle": "NRK (Norwegian Broadcasting Company)",
+      "thirdTitle": "Full Time",
+      "fourthTitle": "Jun 2023 - Aug 2023 ⸱ 2 mo.",
+      "items": []
+    },
+    {
+      "extended": true,
+      "logo": "/images/Properate-logo-square.png",
+      "title": "Properate - Developer",
+      "subtitle": "7 mo.",
+      "thirdTitle": null,
+      "fourthTitle": null,
+      "items": [
+        {
+          "title": "App Developer",
+          "subtitle": "Part Time",
+          "date": "Sep 2023 - Dec 2023"
+        },
+        {
+          "title": "Bachelor Thesis",
+          "subtitle": "Full Time",
+          "date": "Jan 2023 - May 2023"
+        },
+        {
+          "title": "Summer Internship - Developer",
+          "subtitle": "Full Time",
+          "date": "Jun 2022 - Aug 2022"
+        }
+      ]
+    },
+    {
+      "extended": false,
+      "logo": "/images/Tihlde-logo.png",
+      "title": "Volunteer Experience",
+      "subtitle": "TIHLDE Student Organization",
+      "thirdTitle": "Part Time",
+      "fourthTitle": "Aug 2020 - Jun 2021 ⸱ 11 mo.",
+      "items": []
+    }
+  ],
+  "education": [
+    {
+      "extended": true,
+      "logo": "/images/NTNU-logo.png",
+      "title": "Norwegian University of Science and Technology",
+      "subtitle": "4 years, 10 mo.",
+      "thirdTitle": null,
+      "fourthTitle": null,
+      "items": [
+        {
+          "title": "Computer Science",
+          "subtitle": "M.Sc. Computer Science",
+          "date": "Aug 2023 - Jun 2025"
+        },
+        {
+          "title": "Computer Science",
+          "subtitle": "B.Sc. Computer Science & Engineering",
+          "date": "Jan 2023 - May 2023"
+        }
+      ]
+    },
+    {
+      "extended": false,
+      "logo": "/images/UCSD-logo.png",
+      "title": "Extended Studies",
+      "subtitle": "University of California San Diego",
+      "thirdTitle": null,
+      "fourthTitle": "Aug 2020 - Jun 2021 ⸱ 11 mo.",
+      "items": []
+    }
+  ]
+}

@@ -13,7 +13,7 @@
 			<img src={Location} alt="Location indicator" />
 			<div>Oslo/Trondheim, Norway</div>
 		</div>
-		<p>Computer scientist student and developer <br />who loves to create cool stuff!</p>
+		<p>Computer science student and developer <br />who loves to create cool stuff!</p>
 	</div>
 	<div class="project-container">
 		{#each projects.projects as project}
