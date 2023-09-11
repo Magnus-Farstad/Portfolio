@@ -8,12 +8,15 @@
 <div class="container">
 	<div class="hero-container">
 		<Particles />
-		<h1>Hi, I'm <span>Magnus</span></h1>
+		<h1>Hi, I'm Magnus</h1>
 		<div class="location">
 			<img src={Location} alt="Location indicator" />
 			<div>Oslo/Trondheim, Norway</div>
 		</div>
-		<p>Computer science student and developer <br />who loves to create cool stuff!</p>
+		<p>
+			Computer science student and developer <br />who loves to create cool stuff! Learn more
+			<span><a href="/about">about me</a></span>
+		</p>
 	</div>
 	<div class="project-container">
 		{#each projects.projects as project}
@@ -50,17 +53,19 @@
 		gap: 32px;
 	}
 
-	span {
-		/*transition: border-radius 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),*/
-		/*	box-shadow 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);*/
-		/*box-shadow: 0 4px #bdbdc5, inset 0 -1px #bdbdc5;*/
+	a {
+		text-decoration: none;
+		color: #323235;
+		transition: border-radius 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+			box-shadow 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+		box-shadow: 0 2px #bdbdc5, inset 0 -1px #bdbdc5;
 
-		/*&:hover {*/
-		/*	-webkit-text-fill-color: rgba(14, 14, 15, 0.56);*/
-		/*	border-radius: 6px;*/
-		/*	box-shadow: 0 0 0 2px rgba(189, 189, 197, 0.3), inset 0 -90px rgba(189, 189, 197, 0.3);*/
-		/*	cursor: pointer;*/
-		/*}*/
+		&:hover {
+			color: #0e0e0f;
+			border-radius: 6px;
+			box-shadow: 0 0 0 2px rgba(189, 189, 197, 0.3), inset 0 -90px rgba(189, 189, 197, 0.3);
+			cursor: pointer;
+		}
 	}
 
 	h1 {

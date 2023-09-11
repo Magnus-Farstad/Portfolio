@@ -68,7 +68,7 @@
 		background-color: #323235;
 		border-radius: 4px;
 		position: absolute;
-		top: 251px;
+		top: 235px;
 		right: 262px;
 		transform: rotate(14deg);
 	}
