@@ -60,6 +60,11 @@
 	.logo-container {
 		padding-top: 4px;
 	}
+	img {
+		aspect-ratio: 1;
+		width: 60px;
+		border-radius: 5px;
+	}
 	p {
 		margin: 0;
 		font-size: 16px;

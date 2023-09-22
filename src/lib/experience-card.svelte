@@ -35,6 +35,12 @@
 		font-size: 14px;
 	}
 
+	img {
+		aspect-ratio: 1;
+		width: 60px;
+		border-radius: 5px;
+	}
+
 	h4 {
 		margin: 0;
 		font-size: 16px;
