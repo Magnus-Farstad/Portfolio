@@ -94,7 +94,7 @@
 		color: #000;
 		font-size: 20px;
 		font-style: normal;
-		font-weight: 600;
+		font-weight: 500;
 		line-height: normal;
 	}
 
