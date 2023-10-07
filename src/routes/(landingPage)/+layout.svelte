@@ -76,6 +76,12 @@
 		}
 	}
 
+	@media screen and (max-width: 700px) {
+		nav {
+			padding-inline: 10%;
+		}
+	}
+
 	@keyframes slideIn {
 		from {
 			transform: translateY(-100px);

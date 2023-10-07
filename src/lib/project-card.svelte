@@ -100,4 +100,40 @@
 	.img-container {
 		width: 420px;
 	}
+
+	@media screen and (max-width: 991px) {
+		.container {
+			flex-direction: column;
+			width: 80%;
+			height: auto;
+			min-width: auto;
+			align-items: stretch;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 32px;
+			padding-left: 32px;
+			padding-right: 32px;
+			gap: 50px;
+		}
+		.info {
+			width: auto;
+		}
+		.img-container {
+			margin-left: auto;
+		}
+	}
+
+	@media screen and (max-width: 584px) {
+		.img-container {
+			width: 100%;
+			height: auto;
+		}
+		.image {
+			width: 100%;
+			height: auto;
+		}
+		h3 {
+			font-size: 30px;
+		}
+	}
 </style>

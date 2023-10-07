@@ -1,10 +1,13 @@
 <script lang="ts">
 	import ProjectInfoCard from '$lib/project-info-card.svelte';
+	import type { Project } from '$lib/store/project-store';
 	import projects from '$lib/assets/projects.json';
 	import { page } from '$app/stores';
 
 	console.log($page);
-	const project = projects.projects.find((item) => item.id === $page.params.slug);
+	const project: Project = projects.projects.find(
+		(item) => item.id === $page.params.slug
+	) as Project;
 </script>
 
 <div class="container">

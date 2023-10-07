@@ -128,6 +128,54 @@
 		transform: rotate(51deg);
 	}
 
+	@media screen and (max-width: 991px) {
+		.container {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 800px) {
+		.container {
+			transform: scale3d(1, 1, 1);
+		}
+	}
+
+	@media screen and (max-width: 479px) {
+		.container {
+			margin-left: auto;
+			margin-right: auto;
+			left: -31px;
+		}
+		.particle-8 {
+			top: 97px;
+			right: 125px;
+		}
+		.particle-7 {
+			top: 187px;
+			right: 0;
+		}
+		.particle-6 {
+			top: 226px;
+			right: 214px;
+		}
+		.particle-5 {
+			right: 72px;
+		}
+		.particle-4 {
+			right: 215px;
+		}
+		.particle-3 {
+			right: 333px;
+		}
+		.particle-2 {
+			top: 184px;
+			right: 302px;
+		}
+		.particle-1 {
+			right: -3px;
+		}
+	}
+
 	@keyframes rotate {
 		to {
 			transform: scale3d(4, 4, 1);

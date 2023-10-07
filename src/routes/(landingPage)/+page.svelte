@@ -51,6 +51,7 @@
 		align-items: center;
 		flex-direction: column;
 		gap: 32px;
+		position: relative;
 	}
 
 	a {
@@ -74,6 +75,7 @@
 		background: linear-gradient(27deg, #969699, #1e1e22);
 		background-clip: text;
 		color: transparent;
+		letter-spacing: -1.25px;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		width: fit-content;
@@ -100,6 +102,15 @@
 		display: flex;
 		flex-direction: column;
 		gap: 90px;
+	}
+
+	@media screen and (max-width: 600px) {
+		h1 {
+			font-size: 50px;
+		}
+		.hero-container {
+			padding-inline: 20px;
+		}
 	}
 
 	@keyframes fadeIn {
