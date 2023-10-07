@@ -37,7 +37,7 @@
 		z-index: 20;
 		display: flex;
 		justify-content: space-between;
-		padding-inline: 70px;
+		padding-inline: min(10%, 70px);
 		max-width: 1000px;
 		margin-inline: auto;
 		margin-top: 30px;

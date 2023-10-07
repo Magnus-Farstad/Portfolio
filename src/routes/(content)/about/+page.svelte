@@ -59,6 +59,7 @@
 		flex-direction: column;
 		align-items: center;
 		max-width: 1000px;
+		padding-inline: 20px;
 		margin: 75px auto 0;
 		gap: 65px;
 	}
@@ -124,5 +125,24 @@
 	.divider {
 		margin-block: 15px;
 		border-top: 1px solid #969699;
+	}
+
+	@media screen and (max-width: 760px) {
+		.hero {
+			flex-direction: column;
+			gap: 40px;
+		}
+		img {
+			width: 150px;
+		}
+		h1 {
+			font-size: 30px;
+		}
+		p {
+			font-size: 16px;
+		}
+		h4 {
+			font-size: 28px;
+		}
 	}
 </style>
