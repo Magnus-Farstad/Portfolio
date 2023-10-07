@@ -18,6 +18,7 @@
 <style>
 	.container {
 		max-width: 1000px;
+		padding-inline: 20px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -29,5 +30,11 @@
 		object-fit: contain;
 		width: 900px;
 		margin: 0 auto;
+	}
+
+	@media screen and (max-width: 940px) {
+		img {
+			width: 100%;
+		}
 	}
 </style>

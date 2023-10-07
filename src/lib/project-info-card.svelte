@@ -56,4 +56,28 @@
 		font-weight: 400;
 		line-height: normal;
 	}
+
+	@media screen and (max-width: 650px) {
+		h1 {
+			font-size: 38px;
+		}
+		h4 {
+			font-size: 20px;
+		}
+		.text {
+			font-size: 16px;
+		}
+	}
+
+	@media screen and (max-width: 450px) {
+		h1 {
+			font-size: 30px;
+		}
+		h4 {
+			font-size: 18px;
+		}
+		.text {
+			font-size: 16px;
+		}
+	}
 </style>
