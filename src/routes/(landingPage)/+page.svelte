@@ -3,6 +3,16 @@
 	import ProjectCard from '$lib/project-card.svelte';
 	import projects from '$lib/assets/projects.json';
 	import Location from '$lib/assets/location.png';
+	import countapi from 'countapi-js';
+
+	countapi
+		.visits()
+		.then((result) => {
+			console.log(result.value);
+		})
+		.catch((error) => {
+			console.log('Could not retrieve', error);
+		});
 </script>
 
 <div class="container">

@@ -15,7 +15,7 @@ export type Project = {
 	linkToSite: string;
 };
 
-type Extended = {
+type ExtendedItem = {
 	title: string;
 	subtitle: string;
 	date: string;
@@ -26,9 +26,12 @@ export type Employment = {
 	logo: string;
 	title: string;
 	subtitle: string;
+	start: string;
+	end: string;
+	offset: number;
 	thirdTitle: string | undefined;
 	fourthTitle: string | undefined;
-	items: Extended[] | [];
+	items: ExtendedItem[] | [];
 };
 
 export const projectStore = writable<Project>();

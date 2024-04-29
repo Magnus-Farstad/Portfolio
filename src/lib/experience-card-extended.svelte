@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Employment } from '$lib/store/project-store.js';
+	import { calculateLength } from '$lib/functions';
 	export let employment: Employment;
 	console.log(employment);
 
@@ -13,7 +14,7 @@
 		</div>
 		<div class="content">
 			<h4>{employment.title}</h4>
-			<p>{employment.subtitle}</p>
+			<p>{calculateLength(employment.start, employment.end, employment.offset)}</p>
 		</div>
 	</div>
 	<div class="extended-items">

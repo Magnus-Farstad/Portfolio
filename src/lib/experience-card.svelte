@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Employment } from '$lib/store/project-store';
+	import { calculateLength } from '$lib/functions';
 	export let employment: Employment;
 </script>
 
@@ -13,7 +14,9 @@
 		{#if employment.thirdTitle}
 			<p class="optional-title">{employment.thirdTitle}</p>
 		{/if}
-		<p class="optional-title">{employment.fourthTitle}</p>
+		<p class="optional-title">
+			{calculateLength(employment.start, employment.end, employment.offset)}
+		</p>
 	</div>
 </div>
 
