@@ -2,6 +2,18 @@
   "employment": [
     {
       "extended": false,
+      "logo": "/images/Bekk-logo.png",
+      "title": "Summer Internship - Developer (Consultant)",
+      "subtitle": "Bekk Consulting",
+      "thirdTitle": "Full Time",
+      "fourthTitle": "Jun 2024 - Aug 2024 ⸱ 2 mo.",
+      "start": "Jun 2024",
+      "end": "Aug 2024",
+      "offset": 0,
+      "items": []
+    },
+    {
+      "extended": false,
       "logo": "/images/NRK-logo.png",
       "title": "Summer Internship - Developer",
       "subtitle": "NRK (Norwegian Broadcasting Company)",
